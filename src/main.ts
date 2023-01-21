@@ -6,9 +6,7 @@ declare const global: {
 };
 
 function main() {
-  const ss = SpreadsheetApp.getActiveSpreadsheet();
-  const sheet = ss.getSheetByName("シート1");
-  console.log(sheet);
+  console.log("Main function!!");
 }
 
 global.main = main;
