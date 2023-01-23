@@ -10,19 +10,21 @@
 ![Release date](https://img.shields.io/github/release-date/Kazuki-tam/gas-deno-esbuild-starter)
 
 ## Features
-- Develop Locally with TypeScript, Clasp and Deno
+- Develop locally with TypeScript, Clasp and Deno
 - Bundle your files with esbuild
 
 ## Main dependencies
 
+- [Google Apps Script](https://workspace.google.co.jp/intl/en/products/apps-script/)
 - [Clasp](https://github.com/google/clasp)
 - [esbuild](https://esbuild.github.io/)
 
 ## Prerequisites
 
+- [Google Workspace](https://workspace.google.co.jp/)
 - [Deno v1.29.4 or higher](https://deno.land/)
 
-[How to install Deno](https://deno.land/manual@v1.29.4/getting_started/installation)
+[🦕 How to install Deno](https://deno.land/manual@v1.29.4/getting_started/installation)
 
 ## How to use
 

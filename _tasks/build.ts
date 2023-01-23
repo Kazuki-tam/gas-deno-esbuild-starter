@@ -1,4 +1,5 @@
-import GasPlugin from "https://esm.sh/esbuild-gas-plugin/mod.ts";
+import { GasPlugin } from "npm:esbuild-gas-plugin";
+import { denoPlugin } from "https://deno.land/x/esbuild_deno_loader@0.6.0/mod.ts";
 import { build, stop } from "https://deno.land/x/esbuild@v0.17.3/mod.js";
 
 const buildOptions = {
@@ -7,7 +8,7 @@ const buildOptions = {
   bundle: true,
   outfile: "dist/main.js",
   target: "es2020",
-  plugins: [GasPlugin],
+  plugins: [denoPlugin(), GasPlugin],
 };
 
 // Create an output folder
