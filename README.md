@@ -74,5 +74,15 @@ Open the current directory's clasp project on script.google.com.
 deno task open
 ```
 
+## Google Apps Script
+Google Apps Script is a JavaScript-based scripting language that allows you to extend Google's G Suite of online productivity tools (e.g. Google Sheets, Google Forms, Gmail, etc.). It allows you to automate tasks, connect to external APIs, and build custom tools and applications that interact with G Suite data.
+
+[📖 Reference overview](https://developers.google.com/apps-script/reference)
+
+## Clasp
+Clasp (Command Line Apps Script Projects) is a command-line tool that allows you to develop, manage, and deploy Google Apps Script projects.
+
+[📖 Command Line Interface using clasp](https://developers.google.com/apps-script/guides/clasp)
+
 ## License
 MIT
